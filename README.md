@@ -1,4 +1,4 @@
-Calendar Queue (CQ)
+##Calendar Queue (CQ)
 
 
 It is a structure modelled after a simple desk calendar. One schedules an event on a desk
@@ -19,7 +19,7 @@ In our case, each event has an associated timestamp (or time). This time is what
 priority of occurrence of events, i.e. lower the time, higher the priority.
 A bucket (an array of events in our case) has some associated attributes:
 
-1. Width and Resizing Policy
+###1. Width and Resizing Policy
  It is the time interval between spanned by that bucket, e.g. a simple desk calendar
 has 365 buckets each having a width of one day.
  The width of a bucket is variable and it depends on the number of events in each
@@ -89,7 +89,7 @@ id to be updated this will cost O(N) time complexity.
 These operations will make a completely new calendar queue and of new size and
 width and will copy all the current elements into new calendar queue.
 
-Changes Made to Pre-Existing Simulus
+###Changes Made to Pre-Existing Simulus
 
 1)To Event.py
  I have removed the pre-existing PQDict class and replaced it with my Calendar
@@ -119,11 +119,7 @@ simulator.py and then replace those with those in the zip file.
 6. Now run the examples with my modified plugins and cross check the results with the
 output files also given along in the zip file.
 Ref:
-
-
-https://netdb.cis.upenn.edu/rapidnet/doxygen/html/classns3_1_1_calendar_schedu
-ler.html#_details
- https://www.nsnam.org/docs/release/3.18/doxygen/calendar-
-scheduler_8cc_source.html
+https://netdb.cis.upenn.edu/rapidnet/doxygen/html/classns3_1_1_calendar_scheduler.html#_details
+ https://www.nsnam.org/docs/release/3.18/doxygen/calendar-scheduler_8cc_source.html
  Randy Brown, Calendar Queues: A Fast 0(1) Priority Queue Implementation for the
 Simulation Event Set Problem, CACM, 31(10):1220-1227, October 1988.
