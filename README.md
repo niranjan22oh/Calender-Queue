@@ -1,6 +1,4 @@
-Certainly! Below is the **fully copyable Markdown** version for your `README.md` file:
 
-````markdown
 # 📅 Calendar Queue (CQ)
 
 A **Calendar Queue** is a priority queue inspired by a physical desk calendar. Each bucket (day) holds scheduled events based on their timestamp (priority). Events with earlier times are dequeued first.
@@ -100,7 +98,3 @@ index = int(time / width) % n_buckets
 * [NS-3 Source Calendar Scheduler](https://www.nsnam.org/docs/release/3.18/doxygen/calendar-scheduler_8cc_source.html)
 * Randy Brown, *Calendar Queues: A Fast O(1) Priority Queue Implementation for the Simulation Event Set Problem*, CACM, 31(10):1220–1227, October 1988.
 
-```
-
-Let me know if you'd like a version with badges, collapsible sections, or visuals for GitHub pages.
-```
